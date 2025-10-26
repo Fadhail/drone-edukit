@@ -23,12 +23,12 @@ const Footer = () => (
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>team@droneedukit.id</span>
+                <span>irc.ng2025@gmail.com</span>
               </div>
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <Github className="w-4 h-4" />
                 <span>github.com/droneedukit</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -38,12 +38,12 @@ const Footer = () => (
               <Link href="#" className="block text-gray-400 hover:text-white transition-colors">
                 Panduan Pengguna
               </Link>
-              <Link href="#" className="block text-gray-400 hover:text-white transition-colors">
+              {/* <Link href="#" className="block text-gray-400 hover:text-white transition-colors">
                 API Documentation
               </Link>
               <Link href="#" className="block text-gray-400 hover:text-white transition-colors">
                 Tutorial Video
-              </Link>
+              </Link> */}
             </div>
           </div>
 

@@ -7,7 +7,10 @@ import * as THREE from "three";
 
 export function DroneModel() {
   // load as BufferGeometry
-  const geometry = useLoader(STLLoader, '/drone.STL') as THREE.BufferGeometry;
+  // Use absolute path from public/ and correct filename case
+  const geometry = useLoader(STLLoader, '/3d/drone.stl') as THREE.BufferGeometry;
+
+  if (!geometry) return null;
 
   // Ensure geometry has vertex normals
   if (!geometry.attributes.normal) {

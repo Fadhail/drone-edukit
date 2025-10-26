@@ -47,7 +47,7 @@ export const specifications: Specification[] = [
     {
       icon: Battery,
       title: "Baterai",
-      description: "Lipo 3s LPB Nano 2200mah 3S 25C",
+      description: "Lipo 3s 2200mah",
       color: "bg-amber-500",
     },
   ];

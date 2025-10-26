@@ -4,10 +4,10 @@ import { Linkedin, Github, Mail } from "lucide-react";
 export const leadership: TeamMember[] = [
   {
     name: "Muhammad Yusril Helmi Setyawan",
-    role: "Project Manager & Lead Engineer",
+    role: "Project Manager",
     badge: "Project Lead",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/placeholder.svg?height=128&width=128",
+    image: "/profile-picture/profil-pak-yusril.png",
     gradientColors: "from-blue-400 to-cyan-400",
     badgeColors: "from-blue-500 to-cyan-500",
     roleColor: "text-blue-600",
@@ -22,9 +22,9 @@ export const leadership: TeamMember[] = [
 export const developers: TeamMember[] = [
   {
     name: "Mochammad Fadhail Fijratullah",
-    role: "Member",
+    role: "Research And Development",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/placeholder.svg?height=96&width=96",
+    image: "/profile-picture/profil-fadhail.jpeg",
     gradientColors: "from-green-400 to-emerald-400",
     roleColor: "text-green-600",
     socialLinks: [
@@ -33,10 +33,10 @@ export const developers: TeamMember[] = [
     ]
   },
   {
-    name: "Octa Torik Gunawan",
-    role: "Member",
+    name: "Muhammad Okta Toriq Gunawan",
+    role: "Research And Development",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/placeholder.svg?height=96&width=96",
+    image: "/profile-picture/profil-octa.jpeg",
     gradientColors: "from-orange-400 to-red-400",
     roleColor: "text-orange-600",
     socialLinks: [
@@ -45,10 +45,10 @@ export const developers: TeamMember[] = [
     ]
   },
   {
-    name: "Muhammad Saladin Eka Septian",
-    role: "Member",
+    name: "Muhamad Saladin Eka Septian",
+    role: "Software Developer",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/placeholder.svg?height=96&width=96",
+    image: "/profile-picture/profil-eka.jpeg",
     gradientColors: "from-indigo-400 to-purple-400",
     roleColor: "text-indigo-600",
     socialLinks: [

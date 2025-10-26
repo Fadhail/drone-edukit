@@ -6,9 +6,9 @@ const Team = () => (
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Tim Pengembang</h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+        {/* <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           Bertemu dengan tim ahli yang berdedikasi mengembangkan masa depan pendidikan STEM
-        </p>
+        </p> */}
       </div>
 
       <div className="max-w-6xl mx-auto">
@@ -38,10 +38,10 @@ const Team = () => (
                   </div>
                   <h4 className="text-xl font-bold text-gray-800 mb-2">{member.name}</h4>
                   <p className={`${member.roleColor} font-medium mb-3`}>{member.role}</p>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                    {member.description}
-                  </p>
-                  {member.socialLinks && (
+                  {/* <p className="text-gray-600 text-sm leading-relaxed mb-4"> */}
+                    {/* {member.description} */}
+                  {/* </p> */}
+                  {/* {member.socialLinks && (
                     <div className="flex justify-center space-x-3">
                       {member.socialLinks.map((social, socialIndex) => {
                         const Icon = social.icon;
@@ -61,7 +61,7 @@ const Team = () => (
                         );
                       })}
                     </div>
-                  )}
+                  )} */}
                 </CardContent>
               </Card>
             ))}
@@ -87,10 +87,10 @@ const Team = () => (
                   </div>
                   <h4 className="text-lg font-bold text-gray-800 mb-1">{member.name}</h4>
                   <p className={`${member.roleColor} font-medium mb-2 text-sm`}>{member.role}</p>
-                  <p className="text-gray-600 text-xs leading-relaxed mb-3">
+                  {/* <p className="text-gray-600 text-xs leading-relaxed mb-3">
                     {member.description}
-                  </p>
-                  {member.socialLinks && (
+                  </p> */}
+                  {/* {member.socialLinks && (
                     <div className="flex justify-center space-x-2">
                       {member.socialLinks.map((social, socialIndex) => {
                         const Icon = social.icon;
@@ -109,7 +109,7 @@ const Team = () => (
                         );
                       })}
                     </div>
-                  )}
+                  )} */}
                 </CardContent>
               </Card>
             ))}

@@ -8,6 +8,7 @@ import { DroneModel } from "@/components/molecules/drone-model";
 import { Button } from "@/components/atoms/button";
 import { Badge } from "@/components/atoms/badge";
 import { BookOpen } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   const rendererRef = useRef<WebGLRenderer>(null);
@@ -53,7 +54,7 @@ const Hero = () => {
               </div>
               {/* End Logo Section */}
 
-              <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-200">Platform Pembelajaran STEM</Badge>
+              {/* <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-200">Platform Pembelajaran STEM</Badge> */}
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 bg-clip-text text-transparent">
                   Drone Edukit
@@ -67,15 +68,19 @@ const Hero = () => {
               </p>
             </div>
 
-            {/* <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-blue-200 text-blue-600 hover:bg-blue-50 px-8 py-3 bg-transparent"
-              >
-                Lihat Spesifikasi
-              </Button>
-            </div> */}
+            <div className="flex flex-col sm:flex-row gap-4">
+            <Link href="#spesifikasi" legacyBehavior>
+              <a>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-blue-200 text-blue-600 hover:bg-blue-50 px-8 py-3 bg-transparent"
+                >
+                  Lihat Spesifikasi
+                </Button>
+              </a>
+            </Link>
+          </div>
 
             {/* <div className="flex items-center space-x-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
